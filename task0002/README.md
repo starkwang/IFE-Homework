@@ -1,3 +1,9 @@
+[作业二-1](http://starkwang.github.io/IFE-Homework/task0002/work/starkwang/task0002_1.html)（分割兴趣爱好）
+[作业二-2](http://starkwang.github.io/IFE-Homework/task0002/work/starkwang/task0002_2.html)（倒计时）
+[作业二-3](http://starkwang.github.io/IFE-Homework/task0002/work/starkwang/task0002_3.html)（图片轮播）
+[作业二-4](http://starkwang.github.io/IFE-Homework/task0002/work/starkwang/task0002_4.html)（输入提示框）
+[作业二-5](http://starkwang.github.io/IFE-Homework/task0002/work/starkwang/task0002_5.html)（可拖拽界面）
+
 # JavaScript基础
 
 **任务编号**：`TASK 0002`
