@@ -7,6 +7,8 @@
     var _options = {};//保存options，提升查找性能
     var _width,_height,total;//记录gallery的宽度、高度、图片总数
     var now_picture = 0;//当前显示的图片序列
+
+    var interval;
     
     function init(options) {
         //初始化
@@ -98,6 +100,14 @@
             }
         }
         flashButton();
+        resetInterval();
+    }
+
+    function resetInterval(){
+        clearInterval(interval);
+        interval = setInterval(function(){
+                turnRight();;
+            },_options.timeout);
     }
 
     function flashButton(){
@@ -111,11 +121,11 @@
     function auto(){
         //设置自动播放
         if(_options.backwards){
-            setInterval(function(){
+            interval =  setInterval(function(){
                 turnRight();
             },_options.timeout)
         }else{
-            setInterval(function(){
+            interval = setInterval(function(){
                 turnLeft();
             },_options.timeout)
         }

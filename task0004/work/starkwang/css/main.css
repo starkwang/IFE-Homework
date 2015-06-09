@@ -1,0 +1,82 @@
+#app{
+	width: 320px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+.title{
+	background: #dddddd;
+	font-size: 40px;
+	text-align: center;
+	height: 50px;
+	width: 320px;
+	color: #ffffff;
+}
+.category{
+	width: 320px;
+	height: auto;
+	position: absolute;
+
+}
+.task{
+	width: 320px;
+	height: auto;
+	position: absolute;
+	left: 320px;
+}
+.content{
+	width: 320px;
+	height: auto;
+	position: absolute;
+	left: 640px;
+}
+.categoryItem,.taskItem{
+	width: 320px !important;
+	height: 50px;
+	background: #aaaaaa;
+	border-bottom: 1px solid #000000;
+	font-size: 26px;
+	padding:12px;
+	box-sizing:border-box;
+}
+.taskItem{
+	background: #dddddd !important;
+	height: 
+}
+.content_title{
+	height: 50px;
+	width: 320px;
+	font-size: 25px;
+	font-weight: bold;
+	border-bottom: 1px solid #aaaaaa;
+	box-sizing:border-box;
+	padding: 12px;
+}
+.content_date{
+	height: 30px;
+	width: 320px;
+	font-size: 15px;
+	padding-top: 7.5px;
+	padding-left: 12px;
+	box-sizing:border-box;
+	border-bottom: 1px solid #aaaaaa;
+}
+.content_content{
+	height: auto;
+	width: 320px;
+	font-size: 18px;
+	box-sizing:border-box;
+	padding: 12px;
+}
+#result{
+	width: 320px;
+	height: 50px;
+	background: #eeeeee;
+}
+.back{
+	position: absolute;
+	height: 50px;
+	box-sizing:border-box;
+	padding: 15px;
+	font-size: 20px;
+}
