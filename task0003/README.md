@@ -1,3 +1,5 @@
+[第三次作业](http://starkwang.github.io/IFE-Homework/task0003/work/starkwang/index.html)
+
 # 综合大练习
 
 **任务编号**：`TASK 0003`
