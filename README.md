@@ -4,6 +4,10 @@
 
 [task0002](https://github.com/starkwang/IFE-Homework/tree/master/task0002)
 
+[task0003](https://github.com/starkwang/IFE-Homework/tree/master/task0003)
+
+[task0004](https://github.com/starkwang/IFE-Homework/tree/master/task0004)
+
 **下面是官方的readme**
 
 ## 目录
